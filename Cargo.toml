@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 cassowary = "0.3.0"
 color-eyre = "0.6.2"
+itertools = "0.12.0"
