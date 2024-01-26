@@ -87,7 +87,7 @@ impl Layout {
         self.add_constraints(&[
             rect.left() | GE(REQUIRED) | self.area_element.left(),
             rect.top() | GE(REQUIRED) | self.area_element.top(),
-            rect.right() | LE(REQUIRED) | self.area_element.bottom(),
+            rect.right() | LE(REQUIRED) | self.area_element.right(),
             rect.bottom() | LE(REQUIRED) | self.area_element.bottom(),
         ])
     }
